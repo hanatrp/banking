@@ -230,7 +230,7 @@ export const exchangePublicToken = async ({
     if (!fundingSourceUrl) throw Error;
 
     // Create a bank account using the user ID, item ID, account ID, access token, funding source URL, and shareableId ID
-    await CreateBankAccountreateBankAccount({
+    await CreateBankAccount({
       userId: user.$id,
       bankId: itemId,
       accountId: accountData.account_id,
@@ -302,3 +302,4 @@ export const getBankByAccountId = async ({
     console.log(error);
   }
 };
+
