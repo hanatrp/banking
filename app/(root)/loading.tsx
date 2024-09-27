@@ -2,7 +2,7 @@ import React from 'react'
 
 const loading = () => {
   return (
-    <div className='bg-white text-black-1 font-semibold'>
+    <div className='bg-white flex items-center justify-center text-center text-black-1 font-semibold'>
       loading...
     </div>
   )
